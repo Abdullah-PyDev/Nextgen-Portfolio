@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Abdullah's Portfolio — Computer Science Student</title>
+			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+			<meta name="description" content="Abdullah's portfolio showcasing projects, skills, and achievements in Computer Science and Web Development." />
+			<link rel="stylesheet" href="styles.css">
+			<script src="script.js" defer></script>
+	</head>
+	<body>
+			<div class="cursor-dot"></div>
+			<div class="cursor-ring"></div>
+			<div class="cursor-illum" aria-hidden="true"></div>
+			<header id="siteHeader"> 
+			<div class="wrap nav-inner" role="navigation" aria-label="Main navigation">
+				<div class="logo" aria-hidden="false">
+					<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00e0b8;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#008c76;stop-opacity:0.9"/>
+    </linearGradient>
+  </defs>
+  <circle cx="24" cy="24" r="22" fill="rgba(0,224,184,0.08)"/>
+  <path d="M16 20C16 16 20 12 24 12C28 12 32 16 32 20C32 24 28 28 24 28C20 28 16 32 16 36" 
+        stroke="url(#logoGradient)" 
+        stroke-width="2.5" 
+        stroke-linecap="round" 
+        fill="none">
+    <animate attributeName="d" 
+             dur="2s" 
+             repeatCount="indefinite" 
+             values="M16 20C16 16 20 12 24 12C28 12 32 16 32 20C32 24 28 28 24 28C20 28 16 32 16 36;
+                     M16 36C16 32 20 28 24 28C28 28 32 32 32 36C32 32 28 28 24 28C20 28 16 24 16 20;
+                     M16 20C16 16 20 12 24 12C28 12 32 16 32 20C32 24 28 28 24 28C20 28 16 32 16 36"/>
+  </path></svg>
+					<div>
+						<div style="font-weight:800">Abdullah</div>
+						<div style="font-size:11px;color:var(--muted);margin-top:2px">Computer Science Student</div>
+					</div>
+				</div>
+
+				<nav aria-label="Primary">
+					<a href="#home">Home</a>
+					<a href="#about">About Me</a>
+					<a href="#work">Work</a>
+					<a href="#services">Services</a>
+					<a href="#contact">Contact</a>
+				</nav>
+
+				<div style="display:flex;gap:10px;align-items:center">
+					<button class="cta">Happy to chat</button>
+					<button class="menu-toggle" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section id="home" class="hero">
+				<div class="hero-left">
+								<div class="clock" role="img" aria-label="Analog clock showing current time">
+									<div class="dial">
+										<div class="hand hour"></div>
+										<div class="hand minute"></div>
+										<div class="hand second"></div>
+										<div class="center-dot"></div>
+										<div class="ticks">
+											<span class="tick" style="transform: rotate(0deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(30deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(60deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(90deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(120deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(150deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(180deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(210deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(240deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(270deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(300deg) translateY(-42%);"></span>
+											<span class="tick" style="transform: rotate(330deg) translateY(-42%);"></span>
+											</div>
+										</div>
+									</div>
+									<div class="ring"></div>
+
+								</div>
+				</div>
+
+				<div class="hero-right wrap">
+					<div class="eyebrow reveal">Computer Science Student</div>
+					<h1 class="reveal">Passionate about Web Development & Software Engineering</h1>
+					<p class="lead reveal">Currently pursuing my degree in Computer Science, I specialize in full-stack development and modern web technologies. My focus is on creating innovative solutions and learning cutting-edge technologies.</p>
+					<div class="actions reveal">
+						<button class="btn-primary" onclick="location.href='#contact'">Get in Touch</button>
+						<button class="btn-ghost" onclick="location.href='#work'">View Projects</button>
+					</div>
+				</div>
+			</section>
+
+			<section id="about">
+				<div class="section-inner">
+					<h2 class="reveal">About me</h2>
+					<p class="reveal">As a Computer Science student, I'm deeply passionate about software development and emerging technologies. I have experience in various programming languages and frameworks, with a particular interest in web development and artificial intelligence. I enjoy solving complex problems and building user-friendly applications.</p>
+				</div>
+			</section>
+
+			<section id="work">
+				<div class="section-inner">
+					<h2 class="reveal">Selected work</h2>
+					<div class="grid-cards">
+						<article class="card reveal">
+							<div class="service-icon">�</div>
+							<h3>Portfolio Website</h3>
+							<p>Interactive portfolio built with modern web technologies, featuring smooth animations and responsive design.</p>
+						</article>
+						<article class="card reveal">
+							<div class="service-icon">🤖</div>
+							<h3>AI Chat Application</h3>
+							<p>Real-time chat application with AI integration using Python, TensorFlow, and WebSocket technology.</p>
+						</article>
+						<article class="card reveal">
+							<div class="service-icon">📱</div>
+							<h3>Mobile Learning App</h3>
+							<p>Cross-platform educational app developed with React Native, featuring offline support and progress tracking.</p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<section id="services">
+				<div class="section-inner">
+					<h2 class="reveal">Services</h2>
+					<div class="grid-cards" style="margin-top:18px">
+						<div class="card reveal"><h3>Web Development</h3><p>HTML5, CSS3, JavaScript, React, Node.js, Express</p></div>
+						<div class="card reveal"><h3>Programming</h3><p>Python, Java, C++, Data Structures & Algorithms</p></div>
+						<div class="card reveal"><h3>Tools & Technologies</h3><p>Git, Docker, AWS, MongoDB, SQL, Linux</p></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact">
+				<div class="section-inner">
+					<h2 class="reveal">Get in touch</h2>
+					<p class="reveal">Interested in collaboration or have questions about my projects? Feel free to reach out. I'm always eager to connect with fellow developers and potential collaborators.</p>
+					<div style="margin-top:18px" class="reveal">
+						<a class="btn-primary" href="mailto:abdullah.student@example.com">Email me</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="wrap">© <strong>Abdullah</strong> — Computer Science Student • Class of 2026</div>
+		</footer>
+
+		<script>
+			// Smooth scrolling for anchor links
+			document.querySelectorAll('a[href^="#"]').forEach(a=>{
+				a.addEventListener('click', e=>{
+					const href = a.getAttribute('href');
+					if(href.length>1){
+						e.preventDefault();
+						document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
+						history.replaceState(null,'',href);
+					}
+				})
+			})
+
+			// Shrink header on scroll
+			const header = document.getElementById('siteHeader');
+			let lastY = 0;
+			window.addEventListener('scroll', ()=>{
+				const y = window.scrollY;
+				if(y>60){header.classList.add('scrolled')}else{header.classList.remove('scrolled')}
+				lastY = y;
+			},{passive:true});
+
+			// IntersectionObserver for reveal animations and active section
+			const io = new IntersectionObserver((entries)=>{
+				entries.forEach(entry=>{
+					if(entry.isIntersecting){
+						entry.target.classList.add('in-view');
+					}
+				})
+			},{threshold:0.18});
+
+			document.querySelectorAll('.reveal, .card').forEach(el=>io.observe(el));
+
+					// Update nav active link based on sections in view
+			const sections = document.querySelectorAll('main section[id]');
+			const navLinks = document.querySelectorAll('nav a');
+			const sectionObserver = new IntersectionObserver((entries)=>{
+				entries.forEach(entry=>{
+					if(entry.isIntersecting){
+						const id = entry.target.id;
+						navLinks.forEach(a=>a.classList.toggle('active', a.getAttribute('href')==`#${id}`));
+					}
+				})
+			},{threshold:0.45});
+			sections.forEach(s=>sectionObserver.observe(s));
+
+					// Analog clock: smooth, continuous update using requestAnimationFrame
+					(function initAnalogClock(){
+						const hourEl = document.querySelector('.hand.hour');
+						const minuteEl = document.querySelector('.hand.minute');
+						const secondEl = document.querySelector('.hand.second');
+						if(!hourEl || !minuteEl || !secondEl) return;
+
+						function update(){
+							const now = new Date();
+							const ms = now.getMilliseconds();
+							const s = now.getSeconds() + ms/1000;
+							const m = now.getMinutes() + s/60;
+							const h = (now.getHours() % 12) + m/60;
+
+							const secondDeg = s * 6; // 360/60
+							const minuteDeg = m * 6; // 360/60
+							const hourDeg = h * 30;  // 360/12
+
+							hourEl.style.transform = `translate(-50%,-100%) rotate(${hourDeg}deg)`;
+							minuteEl.style.transform = `translate(-50%,-100%) rotate(${minuteDeg}deg)`;
+							secondEl.style.transform = `translate(-50%,-100%) rotate(${secondDeg}deg)`;
+
+							requestAnimationFrame(update);
+						}
+						requestAnimationFrame(update);
+					})();
+
+			// Mobile menu toggle (basic)
+			const toggle = document.querySelector('.menu-toggle');
+			toggle && toggle.addEventListener('click', ()=>{
+				const expanded = toggle.getAttribute('aria-expanded') === 'true';
+				toggle.setAttribute('aria-expanded', String(!expanded));
+				document.querySelector('nav').style.display = expanded ? 'none' : 'flex';
+			});
+		</script>
+	</body>
+</html>
+
