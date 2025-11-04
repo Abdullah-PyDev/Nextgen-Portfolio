@@ -173,7 +173,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 
 ## 📧 Contact
 
-Your Name - [f250039@cfd.nu.edu.pk](mailto:f250039@cfd.nu.edu.pk)
+Abdullah Shafiq - [f250039@cfd.nu.edu.pk](mailto:f250039@cfd.nu.edu.pk)
 
 ## 🙏 Acknowledgments
 
